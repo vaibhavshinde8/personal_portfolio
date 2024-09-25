@@ -15,11 +15,11 @@ function Resume() {
     <Container fluid className="resume-section">
       <Particle />
       <Container>
-        <Row style={}>
-          {/* You can add content here if needed */}
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+       
         </Row>
         <Row className="resume">
-          <Col md={6} className="">
+          <Col md={6} className="resume-left">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="B.tech"
@@ -40,6 +40,17 @@ function Resume() {
               date="2018-2019"
               content={[
                 "J R Gunjal, Janata Vidyalay, Nashik | 2019 | 10th | SSC | Percentage: 70.80 / 100",
+              ]}
+            />
+          </Col>
+                 <Col md={6} className="resume-right">
+
+            <h3 className="resume-title">Ranks and Achivements</h3>
+            <Resumecontent
+              title=""
+              content={[
+                `I won the "BYTE BATTLE" competition at DKTE's Yashwantrao Chavan Polytechnic,`,
+                ` demonstrating my expertise in solving complex problems with data structures and algorithms.`,
               ]}
             />
           </Col>
