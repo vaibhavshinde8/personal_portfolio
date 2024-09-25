@@ -15,11 +15,11 @@ function Resume() {
     <Container fluid className="resume-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={}>
           {/* You can add content here if needed */}
         </Row>
         <Row className="resume">
-          <Col md={6} className="resume-left">
+          <Col md={6} className="">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="B.tech"
